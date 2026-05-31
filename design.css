@@ -8,6 +8,7 @@ body {
  background-color: #FEE;
  position: relative;
  padding: 6px;
+ min-height: 512px;
 }
 p {
  color:#008;
@@ -56,6 +57,14 @@ img {
  border: 0px;
  margin: 2px;
  object-fit:scale-down;
+ float: left;
+}
+.rounded {
+border-radius: 50%;
+border: 2px solid #aae; 
+}
+.greyBackground {
+	background-color: #ddd;
 }
 .centre {
 //    display: block;
